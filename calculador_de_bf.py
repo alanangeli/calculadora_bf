@@ -80,7 +80,7 @@ while True:
             massa_muscular = peso - massa_gordura_kg
             massa_muscular = int(massa_muscular)
             massa_muscular_kg = massa_muscular
-            print(massa_gordura_kg)
+            
             print("Sua massa de gordura corporal é de: ", "{:.1f}".format(massa_gordura_kg), "kg")
             print("Sua massa muscular é de: ", "{:.1f}".format(massa_muscular), "kg")
 
@@ -94,7 +94,7 @@ while True:
             massa_muscular = peso - massa_gordura_kg
             massa_muscular = int(massa_muscular)
             massa_muscular_kg = massa_muscular
-            print(massa_gordura_kg)
+            
             print("Sua massa de gordura corporal é de: ", "{:.1f}".format(massa_gordura_kg), "kg")
             print("Sua massa muscular é de: ", "{:.1f}".format(massa_muscular), "kg")
 
