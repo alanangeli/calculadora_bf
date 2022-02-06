@@ -37,7 +37,7 @@ while True:
         break
 
 while True:
-    cintura = input("De barriga vazia, em jejum, murche a barriga e meçado umbigo, em centímetros: ")
+    cintura = input("Cintura (meça de barriga vazia): ")
     if not cintura.isnumeric():
         print("Digite apenas números!")
         continue
