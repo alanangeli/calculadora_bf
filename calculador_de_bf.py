@@ -75,7 +75,7 @@ while True:
             print("Seu percentual de gordura é de: ", "{:.1f}".format(bfh), "%")
             massa_gordura = bfh * peso
             massa_gordura = int(massa_gordura)
-            massa_gordura_kg = massa_gordura / 100
+            massa_gordura_kg = massa_gordura / 100 #converter a medida para kg
 
             massa_muscular = peso - massa_gordura_kg
             massa_muscular = int(massa_muscular)
