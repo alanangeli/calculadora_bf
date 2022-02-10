@@ -45,7 +45,7 @@ while True:
         print()
         break
 
-while sexo == 2:
+while sexo == 2: #somente se for do sexo feminino, calcula-se a cintura também
     quadril = input("Quadril: ")
     if not quadril.isnumeric():
         print("Digite apenas números!")
