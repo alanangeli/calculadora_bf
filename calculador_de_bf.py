@@ -71,7 +71,7 @@ while True:
         peso = float(peso)
 
         if sexo == 1:
-            bfh = 495 / (1.0324 - 0.19077 * math.log10(cintura - pescoço) + 0.15456 * math.log10(altura)) - 450
+            bfh = 495 / (1.0324 - 0.19077 * math.log10(cintura - pescoço) + 0.15456 * math.log10(altura)) - 450 #Fórmula da marinha americana
             print("Seu percentual de gordura é de: ", "{:.1f}".format(bfh), "%")
             massa_gordura = bfh * peso
             massa_gordura = int(massa_gordura)
