@@ -2,7 +2,7 @@ nome = input("Digite seu nome: ")
 idade = input("Digite sua idade: ")
 
 
-#import.math
+#import math
 
 
 while True:
